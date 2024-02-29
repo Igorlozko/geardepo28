@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.7",
+    "@mui/x-data-grid": "^6.19.3",
+    "@mui/x-date-pickers": "^6.19.4",
+    "@stripe/react-stripe-js": "^2.5.0",
+    "@stripe/stripe-js": "^3.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.5.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "react": "^18.2.0",
+    "react-date-range": "^2.0.0-alpha.4",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.7",
+    "react-router-dom": "^6.22.0",
+    "react-slick": "^0.30.1",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^14.18.0",
+    "supercluster": "^8.0.1",
+    "swiper": "^11.0.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
